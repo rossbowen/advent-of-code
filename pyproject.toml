@@ -1,0 +1,9 @@
+[project]
+name = "advent-of-code"
+version = "0.1.0"
+description = "Solutions and explorations for Advent of Code challenges"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+]
