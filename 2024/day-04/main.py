@@ -1,7 +1,7 @@
 # %%
 
 
-def parse_input(file: str) -> str:
+def parse_input(file: str) -> list[str]:
     with open(file, "r") as f:
         content = f.read().splitlines()
     return content
